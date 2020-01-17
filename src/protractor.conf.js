@@ -3,7 +3,7 @@ const SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 module.exports.config = {
   baseUrl: 'https://recruitment.possible.cx/',
   directConnect: true,
-  specs: ['src/spec/*.spec.js'],
+  specs: ['spec/*.spec.js'],
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
