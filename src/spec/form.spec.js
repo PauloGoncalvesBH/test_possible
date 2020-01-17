@@ -37,6 +37,6 @@ describe('Cadastro de seguro fictício', () => {
     form.dadosDoEquipamento.preencherDadosDoEquipamento(dadosDoEquipamento);
     form.salvar();
 
-    helper.waitForTextToBePresentInElement(form.alerta ,'Formulário salvo com sucesso!')
+    helper.waitForTextToBePresentInElement(form.alerta, 'Formulário salvo com sucesso!');
   });
 });

@@ -1,6 +1,6 @@
 const helper = require('protractor-helper');
 
-const alerta = $('[role=alert')
+const alerta = $('[role=alert');
 
 const acessar = () => {
   browser.get('form');
