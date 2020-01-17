@@ -1,0 +1,40 @@
+{
+  "name": "test_possible",
+  "version": "1.0.0",
+  "description": "Automação para cargo de QA na Possible",
+  "license": "MIT",
+  "author": "Paulo Gonçalves <paulorochag@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PauloGoncalvesBH/test_possible.git"
+  },
+  "scripts": {
+    "pretest": "webdriver-manager update --gecko false",
+    "test": "protractor",
+    "prettify": "prettier --write **/*.js **/*.json --print-width 120 --single-quote true --loglevel warn"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run prettify"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "gerar-cpf": "^2.0.3",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.2",
+    "protractor-helper": "^4.0.11"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "husky": "^4.0.10",
+    "prettier": "^1.19.1"
+  }
+}
