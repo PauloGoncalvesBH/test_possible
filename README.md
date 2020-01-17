@@ -15,7 +15,7 @@ Todos os comandos abaixos são executados no _prompt de comando_.
 **1** - Clone o repositório e acesse o diretório criado:
 
 ```sh
-git clone https://github.com/PauloGoncalvesBH/test_possible.git && cd test_possible
+git clone git@github.com:PauloGoncalvesBH/test_possible.git && cd test_possible
 ```
 
 **2** - Instale as dependências necessárias para rodar os testes:
