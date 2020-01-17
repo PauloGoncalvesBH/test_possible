@@ -7,7 +7,7 @@ module.exports.config = {
   capabilities: {
     browserName: 'chrome',
     chromeOptions: {
-      args: ['incognito']
+      args: ['incognito', '--headless']
     }
   },
   params: {
