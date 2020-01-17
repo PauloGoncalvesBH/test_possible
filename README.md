@@ -35,7 +35,7 @@ npm test
 
 ### Integração contínua
 
-[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FPauloGoncalvesBH%2Ftest_possible%2Fbadge%3Fref%3Dmaster%26token%3D23bb4674665a2440888157866835ac7bb2341112&style=flat)](https://actions-badge.atrox.dev/PauloGoncalvesBH/test_possible/goto?ref=master&token=23bb4674665a2440888157866835ac7bb2341112)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2FPauloGoncalvesBH%2Ftest_possible%2Fbadge%3Fref%3Dmaster%26token%3D6c4abbb47852574893b405dcf6dea8d7666e47bf&style=flat)](https://actions-badge.atrox.dev/PauloGoncalvesBH/test_possible/goto?ref=master&token=6c4abbb47852574893b405dcf6dea8d7666e47bf)
 
 A cada `git push` na branch Master os testes são executados para garantir a integridade do projeto.
 
